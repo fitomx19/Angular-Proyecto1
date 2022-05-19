@@ -14,4 +14,4 @@ Esta configurado para funcionar en el puerto 4200
 La url sera: 
 
 
-[![N|Solid](https://localhost:4200)](https://localhost:4200)
+[http://localhost:4200](https://localhost:4200)](https://localhost:4200)
