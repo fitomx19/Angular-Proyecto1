@@ -1,0 +1,74 @@
+<div class="container pt-2">
+    <h1 class="text-center">{{titulo}}</h1>
+   <form>
+        <div class="form-group">
+            <label>
+                Grados Centigrados : 
+            </label>
+            <input type="number" class="form-control" name="numero" [(ngModel)]="numero" placeholder="Inserta un número"/>
+
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-outline btn-primary"
+            (click)="convertirGrados()"
+            >Convertir Grados</button>
+        </div>
+        <div>
+          <p>El resultado es de Centigrados a Farenheit es : {{resultadoCentigradoAFarenheit}}</p>
+        </div>
+        <div>
+            <p>El resultado es de Centigrados a Kelvin es : {{resultadoCentigradoAKelvin}}</p>
+        </div>
+       
+   </form>
+</div>
+<div class="container pt-2">
+    
+   <form>
+        <div class="form-group">
+            <label>
+                Grados Kelvin : 
+            </label>
+            <input type="number" class="form-control" name="numero" [(ngModel)]="numero2" placeholder="Inserta un número"/>
+
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-outline btn-primary"
+            (click)="convertirGrados2()"
+            >Convertir Grados</button>
+        </div>
+        <div>
+          <p>El resultado es de Kelvin  a Centigrados es : {{resultadoKelvinaCentigrados}}</p>
+        </div>
+        <div>
+            <p>El resultado es de Kelvin a Farenheit es : {{resultadoKelvianaFarenheit}}</p>
+        </div>
+       
+   </form>
+</div>
+
+
+<div class="container pt-2">
+    
+    <form>
+         <div class="form-group">
+             <label>
+                 Grados Farenheit : 
+             </label>
+             <input type="number" class="form-control" name="numero" [(ngModel)]="numero3" placeholder="Inserta un número"/>
+ 
+         </div>
+         <div class="mb-3">
+             <button type="submit" class="btn btn-outline btn-primary"
+             (click)="convertirGrados3()"
+             >Convertir Grados</button>
+         </div>
+         <div>
+           <p>El resultado es de Farenheit  a Centigrados es : {{resultadoFaC}}</p>
+         </div>
+         <div>
+             <p>El resultado es de Farenhei  a Kelvin es : {{resultadoFaL}}</p>
+         </div>
+        
+    </form>
+ </div>
